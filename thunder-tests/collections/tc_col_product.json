@@ -28,9 +28,14 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-08-09T00:23:22.254Z",
-            "modified": "2023-08-09T00:23:22.254Z",
+            "modified": "2023-08-09T01:20:39.199Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"BIsZ\",\n  \"tipoProd\": \"Doce\",\n  \"validade\": \"20/07/22\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
@@ -42,9 +47,14 @@
             "method": "PUT",
             "sortNum": 30000,
             "created": "2023-08-09T00:23:28.719Z",
-            "modified": "2023-08-09T00:23:28.719Z",
+            "modified": "2023-08-09T01:23:13.331Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"COMEU\",\n  \"validade\": \"ontem\",\n  \"tipoProd\": \"açucar\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {

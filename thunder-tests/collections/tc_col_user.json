@@ -14,7 +14,7 @@
             "method": "GET",
             "sortNum": 10000,
             "created": "2023-08-09T00:20:23.700Z",
-            "modified": "2023-08-09T00:20:23.700Z",
+            "modified": "2023-08-09T00:56:39.803Z",
             "headers": [],
             "params": [],
             "tests": []
@@ -28,9 +28,14 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2023-08-09T00:21:10.326Z",
-            "modified": "2023-08-09T00:21:10.326Z",
+            "modified": "2023-08-09T01:07:13.172Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Gabriel Ferreira\",\n  \"idade\": \"19\",\n  \"email\": \"gabrielfserrano0@gmail.com\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {
@@ -42,9 +47,14 @@
             "method": "PUT",
             "sortNum": 30000,
             "created": "2023-08-09T00:22:08.438Z",
-            "modified": "2023-08-09T00:22:08.438Z",
+            "modified": "2023-08-09T01:13:31.568Z",
             "headers": [],
             "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Gabriel Ferreira\",\n  \"idade\": \"19\",\n  \"email\": \"gabrielfserrano0@gmail.com\"\n}",
+                "form": []
+            },
             "tests": []
         },
         {

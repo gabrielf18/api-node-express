@@ -1,9 +1,14 @@
 import express from 'express'
+import bodyParser from 'body-parser'
 import userRoute from './router/userRoute.js'
 import productRoute from './router/productRoute.js'
+import logger from './middlewares/logger.js'
 import {PORT} from './config.js'
 
 const api = express()
+
+api.use(logger)
+api.use(bodyParser.json())
 
 api.get('/', (req, res) => {
     res.json({message: "Bem-vindo a API"})

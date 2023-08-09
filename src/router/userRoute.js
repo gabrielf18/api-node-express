@@ -13,10 +13,20 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    res.json({message: "Usuario criado com sucesso"})
+    const dados = req.body
+    console.log(dados.nome)
+    res.json({
+        message: "Usuario criado com sucesso",
+        dados: dados
+    })
 })
 router.put('/', (req, res) => {
-    res.json({message: "Usuario atualizado com sucesso"})
+    res.json({message: "Usuario atualizado com sucesso. NOVOS DADOS:"})
+    const dados = req.body
+    console.log( "Usuario atualizado com sucesso. NOVOS DADOS:")
+    console.log(dados.nome)
+    console.log(dados.idade)
+    console.log(dados.email)
 })
 router.delete('/', (req, res) => {
     res.json({message: "Usuario deletado com sucesso"})
