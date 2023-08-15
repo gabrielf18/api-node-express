@@ -1,0 +1,14 @@
+{
+    "_id": "dbc2b282-06b2-4465-a7d9-349d81862653",
+    "name": "dev",
+    "default": false,
+    "sortNum": 10000,
+    "created": "2023-08-15T23:06:16.431Z",
+    "modified": "2023-08-15T23:06:16.431Z",
+    "data": [
+        {
+            "name": "host",
+            "value": "http://localhost:3000"
+        }
+    ]
+}
