@@ -3,10 +3,12 @@ import listProduct from '../controllers/product/listProduct.js'
 import createProduct from '../controllers/product/createProduct.js'
 import updateProduct from '../controllers/product/updateProduct.js'
 import deleteProduct from '../controllers/product/deleteProduct.js'
+import getProduct from '../controllers/product/getProduct.js'
 
 const router = express.Router()
 
-router.get('/', listProduct)
+router.get('/list', listProduct)
+router.get('/', getProduct)
 
 router.post('/', createProduct)
 
