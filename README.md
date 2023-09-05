@@ -14,9 +14,9 @@
     Fornece as ferramentas para gerenciar as rotas
 - O que é o Padrão de Projeto Middleware?
     É um padrão de projeto que contém um fluxo de etapas e que obrigatóriamente devem ocorrer
-- O que é o padrão de projeto MVC?
+- O que é o padrão de projMeto VC?
     Model = responsável pelas regras de negócios
-    View = Apresentação da página para o usuário
+    View = Apresentação da página para o usuário ou front end
     C = controle de entrada e saída de dados
 
 Monitor para o modo Dev pra quando salvar qualquer modificação ele ja atualiza hora
