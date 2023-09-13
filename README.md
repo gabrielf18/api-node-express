@@ -28,6 +28,6 @@ Monitor para o modo Dev pra quando salvar qualquer modificação ele ja atualiza
  - npm install [nome_do_pacote] -D (Dependência de DEV)
  
 ### NPM
-- git config --global user.name "gabrielf18"  config de git
-- git config --global user.email "gabrielfserrano0@gmail.com"
-- git config --list
+- `git config --global user.name "gabrielf18"`  config de git
+- `git config --global user.email "gabrielfserrano0@gmail.com"`
+- `git config --list`
