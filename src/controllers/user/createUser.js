@@ -5,7 +5,7 @@ const createUser = async (req, res) => {
     const [result] = await user.create(req.body)
     if(result.affectedRows === 1) {
         res.status(201).json({
-            message: 'User Created',
+            success: 'User Created',
             user:{
                 id: result.insertId,
                 ...req.body
@@ -14,7 +14,7 @@ const createUser = async (req, res) => {
     }
    } catch (error) {
     console.log(error)
-    res.status(500).json({message: 'Server Error'})
+    res.status(500).json({error: 'Server Error'})
    }
 }
 

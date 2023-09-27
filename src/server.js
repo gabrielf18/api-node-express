@@ -4,10 +4,12 @@ import userRoute from './router/userRoute.js'
 import productRoute from './router/productRoute.js'
 import logger from './middlewares/logger.js'
 import {PORT} from './config.js'
+import cors from 'cors'
 
 const api = express()
 
 api.use(logger)
+api.use(cors())
 api.use(bodyParser.json())
 
 api.get('/', (req, res) => {
